@@ -1,0 +1,23 @@
+/**
+ * Simple beginner program to find area of a circle.
+ *
+ * Author: Nakshatra Pradeep
+ * Date: 22June2026
+ */
+public class P008CircleArea
+{
+    public static void main(String[] args)
+    {
+    double radius=2.0;
+    double area=Math.PI*radius*radius;
+    
+    
+    
+        
+        
+        
+        
+        
+
+    }
+}
