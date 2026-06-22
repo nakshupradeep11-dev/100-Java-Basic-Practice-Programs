@@ -1,0 +1,16 @@
+/**
+ * Simple beginner program to print your favorite decimal number.
+ *
+ * Author: Nakshatra Pradeep
+ * Date: 22June2026
+ */
+public class P004FavoriteNumber
+{
+    public static void main(String[] args)
+    {
+        double num=1.5;
+        System.out.println(num);
+        
+
+    }
+}
