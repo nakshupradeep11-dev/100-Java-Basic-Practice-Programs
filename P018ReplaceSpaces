@@ -1,0 +1,21 @@
+
+/**
+ * Simple beginner program to replaces spaces in a scentence with underscores.
+ * Author: Nakshatra Pradeep
+ * Date: 22June2026
+ */
+import java.util.*;
+
+public class P018ReplaceSpaces
+{
+    public static void main(String[] args)
+    {
+        Scanner kbReader = new Scanner(System.in);
+
+        System.out.print("Enter a sentence: ");
+        String sentence=kbReader.nextLine();
+        System.out.println(sentence.replace(' ','_'));
+        
+        
+}
+}
