@@ -1,0 +1,22 @@
+
+/**
+ * Simple beginner program to print first 3 characters of a word.
+ * Author: Nakshatra Pradeep
+ * Date: 22June2026
+ */
+import java.util.*;
+
+public class P019SubString
+{
+    public static void main(String[] args)
+    {
+        Scanner kbReader = new Scanner(System.in);
+
+        System.out.print("Enter a word: ");
+        String word=kbReader.next();
+        System.out.println(word.substring(0,3));
+        
+        
+        
+}
+}
