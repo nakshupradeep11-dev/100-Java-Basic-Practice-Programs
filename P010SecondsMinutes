@@ -1,0 +1,26 @@
+/**
+ * Simple beginner program to convert seconds to minutes.
+ * Author: Nakshatra Pradeep
+ * Date: 22June2026
+ */
+public class P010SecondsMinutes
+{
+    public static void main(String[] args)
+    {
+    int seconds=240;
+    int minutes=240/60;
+    System.out.println("240 seconds is equivalent to"+" "+minutes+" "+"minutes"+".");
+    
+    
+    
+    
+    
+    
+        
+        
+        
+        
+        
+
+    }
+}
