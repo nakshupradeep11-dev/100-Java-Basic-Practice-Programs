@@ -1,0 +1,31 @@
+/**
+ * Simple beginner program to swap int values.
+ * Author: Nakshatra Pradeep
+ * Date: 22June2026
+ */
+public class P009SwapValues
+{
+    public static void main(String[] args)
+    {
+    int a =10;
+    int b =20;
+    int temp;
+    temp=a;
+    a=b;
+    b=temp;
+    System.out.println("a is equal to"+" "+a+".");
+    System.out.println("b is equal to"+" "+b+".");
+
+    
+    
+    
+    
+    
+        
+        
+        
+        
+        
+
+    }
+}
