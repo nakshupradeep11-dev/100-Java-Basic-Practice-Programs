@@ -1,0 +1,21 @@
+/**
+ * Simple beginner program to print your initial.
+ *
+ * Author: Nakshatra Pradeep
+ * Date: 22June2026
+ */
+public class P006FirstLetter
+{
+    public static void main(String[] args)
+    {
+        char initial='N';
+        System.out.println("My initial is" + " " + initial+".");
+        
+        
+        
+        
+        
+        
+
+    }
+}
