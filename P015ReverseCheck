@@ -1,0 +1,40 @@
+
+/**
+ * Simple beginner program to print characters of a word in reverse.
+ * Author: Nakshatra Pradeep
+ * Date: 22June2026
+ */
+import java.util.*;
+
+public class P015ReverseCheck
+{
+    public static void main(String[] args)
+    {
+    Scanner kbReader=new Scanner(System.in);
+    System.out.println("Type a word.");
+    String word=kbReader.next();
+    System.out.println("Original Word:"+word);
+    System.out.println("Reversed Word:");
+    for (int i=word.length()-1;i>=0;i--)
+    {
+    
+    
+    System.out.println(word.charAt(i));
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        
+        
+        
+        
+        
+
+    }
+}
+}
