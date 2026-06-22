@@ -1,0 +1,24 @@
+/**
+ * Simple beginner program to add two numbers.
+ *
+ * Author: Nakshatra Pradeep
+ * Date: 22June2026
+ */
+public class P007AddTwoNumbers
+{
+    public static void main(String[] args)
+    {
+    int firstNum=10;
+    int secondNum=5;
+    int sum=firstNum + secondNum;
+    System.out.println(sum);
+    
+    
+        
+        
+        
+        
+        
+
+    }
+}
