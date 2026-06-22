@@ -1,0 +1,13 @@
+/**
+ * Simple beginner program to print "Hello World".
+ *
+ * Author: Nakshatra Pradeep
+ * Date: 22June2026
+ */
+public class P001HelloWorld
+{
+    public static void main(String[] args)
+    {
+        System.out.println("Hello World!");
+    }
+}
