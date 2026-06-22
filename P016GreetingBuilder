@@ -1,0 +1,24 @@
+
+/**
+ * Simple beginner program to print a greeting with first name and last name.
+ * Author: Nakshatra Pradeep
+ * Date: 22June2026
+ */
+import java.util.*;
+
+public class P016GreetingBuilder
+{
+    public static void main(String[] args)
+    {
+    Scanner kbReader=new Scanner(System.in);
+    System.out.println("Type your first name and last name:");
+    String firstName=kbReader.next();
+    String lastName=kbReader.next();
+    System.out.println("Hello,"+" "+firstName+" "+lastName+".");
+    
+
+    
+    
+
+}
+}
