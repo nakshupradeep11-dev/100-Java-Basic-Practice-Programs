@@ -1,0 +1,14 @@
+/**
+ * Simple beginner program to print "Your Name".
+ *
+ * Author: Nakshatra Pradeep
+ * Date: 22June2026
+ */
+public class P002YourName
+{
+    public static void main(String[] args)
+    {
+        String Name="Nakshu";
+        System.out.println("My name is"+" "+Name+".");
+    }
+}
