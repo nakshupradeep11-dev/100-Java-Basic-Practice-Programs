@@ -1,0 +1,17 @@
+/**
+ * Simple beginner program to print your age and the current year.
+ *
+ * Author: Nakshatra Pradeep
+ * Date: 22June2026
+ */
+public class P003AgeYear
+{
+    public static void main(String[] args)
+    {
+        int age=15;
+        int year=2026;
+    System.out.println(age);
+        System.out.println(year);
+
+    }
+}
