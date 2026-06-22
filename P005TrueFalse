@@ -1,0 +1,17 @@
+/**
+ * Simple beginner program to create a boolean value.
+ *
+ * Author: Nakshatra Pradeep
+ * Date: 22June2026
+ */
+public class P005TrueFalse
+{
+    public static void main(String[] args)
+    {
+        boolean isHappy=true;
+        System.out.println(isHappy);
+        
+        
+
+    }
+}
