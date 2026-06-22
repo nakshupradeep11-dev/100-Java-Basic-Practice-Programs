@@ -1,0 +1,33 @@
+
+/**
+ * Simple beginner program to print a word in all uppercase letters.
+ * Author: Nakshatra Pradeep
+ * Date: 22June2026
+ */
+import java.util.*;
+
+public class P012UpperCase
+{
+    public static void main(String[] args)
+    {
+    Scanner kbReader=new Scanner(System.in);
+    System.out.println("Type a word.");
+    String word=kbReader.next();
+    System.out.println("This is the word in uppercase:"+word.toUpperCase());
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        
+        
+        
+        
+        
+
+    }
+}
