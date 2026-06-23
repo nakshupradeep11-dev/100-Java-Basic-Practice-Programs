@@ -1,0 +1,28 @@
+
+/**
+ * Simple beginner program to convert inches to feet.
+ * Author: Nakshatra Pradeep
+ * Date: 23June2026
+ */
+import java.util.*;
+
+public class P027InchesConversion
+{
+    public static void main(String[] args)
+    {
+        Scanner kbReader = new Scanner(System.in);
+        System.out.println("Enter a number of inches:");
+        float inches=kbReader.nextInt();
+        float feet=inches/12;
+        System.out.println("Converted to feet:"+" "+feet+".");
+        
+
+
+        
+
+        
+
+
+        
+}
+}
