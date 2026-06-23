@@ -1,0 +1,33 @@
+
+/**
+ * Simple beginner program to check if a word is a palindrome.
+ * Author: Nakshatra Pradeep
+ * Date: 22June2026
+ */
+import java.util.*;
+
+public class P021PalindromeCheck
+{
+    public static void main(String[] args)
+    {
+        Scanner kbReader = new Scanner(System.in);
+
+        System.out.print("Enter a Word:");
+        String word=kbReader.next();
+        
+        int letterCount = word.length();
+        String reversedWord ="";
+        
+        for (int i=letterCount;i>0;i--){
+            reversedWord=reversedWord+word.charAt(i-1);
+        }
+        
+        if (word.equalsIgnoreCase(reversedWord)){
+            System.out.print(word + " is a palindrome.");
+            
+        }
+        else {
+            System.out.print(word + " is a not a palindrome.");
+        }
+    }
+}
