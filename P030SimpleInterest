@@ -1,0 +1,38 @@
+
+/**
+ * Simple beginner program to caluclate and print simple interest.
+ * Author: Nakshatra Pradeep
+ * Date: 23June2026
+ */
+import java.util.*;
+
+public class P030SimpleInterest
+{
+    public static void main(String[] args)
+    {
+        Scanner kbReader = new Scanner(System.in);
+        System.out.println("Enter a principal:");
+        float principal=kbReader.nextFloat();
+        System.out.println("Enter a rate:");
+        float rate=kbReader.nextFloat();
+        System.out.println("Enter a # of years");
+        float years=kbReader.nextFloat();
+        float simpleInterest=(principal*rate*years)/100;
+        System.out.println("Here's your simple interest: "+simpleInterest+"%"+".");
+        
+
+
+
+        
+        
+        
+
+
+        
+
+        
+
+
+        
+}
+}
