@@ -1,0 +1,27 @@
+
+/**
+ * Simple beginner program to calculate your birth year based on your age. 
+ * Author: Nakshatra Pradeep
+ * Date: 23June2026
+ */
+import java.util.*;
+
+public class P025BirthYearCalculator
+{
+    public static void main(String[] args)
+    {
+        Scanner kbReader = new Scanner(System.in);
+        System.out.println("Enter your age:");
+        int Age=kbReader.nextInt();
+        int birthYear=2026-Age;
+        System.out.println("It is 2026, so you must be born in:"+" "+birthYear+".");
+
+        
+        
+
+        
+
+
+        
+}
+}
