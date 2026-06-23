@@ -1,0 +1,24 @@
+
+/**
+ * Simple beginner program to determine whether a year was a leap year or not.
+ * Author: Nakshatra Pradeep
+ * Date: 23June2026
+ */
+import java.util.*;
+public class P038LeapYear
+{
+    public static void main(String[] args)
+    {
+        Scanner kbReader = new Scanner(System.in);
+           System.out.println("Enter the year:");
+           int year=kbReader.nextInt();
+           if((year%4==0&&year%100!=0) || (year%400==0))
+           {
+               System.out.println(year+" was a leap year!");
+           }
+           else{
+               System.out.println(year+" was not a leap year.");
+               
+           }
+           
+                    }        }    
