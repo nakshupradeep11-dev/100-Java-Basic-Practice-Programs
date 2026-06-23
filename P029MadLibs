@@ -1,0 +1,34 @@
+
+/**
+ * Simple beginner program to print a mad lib.
+ * Author: Nakshatra Pradeep
+ * Date: 23June2026
+ */
+import java.util.*;
+
+public class P029MadLibs
+{
+    public static void main(String[] args)
+    {
+        Scanner kbReader = new Scanner(System.in);
+        System.out.println("Welcome to Mad Libs! Enter a noun");
+        String noun=kbReader.next();
+        System.out.println("Enter a verb:");
+        String verb=kbReader.next();
+        System.out.println("Enter a adjective");
+        String adjective=kbReader.next();
+        System.out.println("The " + adjective + " " + noun + " likes to " + verb + " every day.");
+
+        
+        
+        
+
+
+        
+
+        
+
+
+        
+}
+}
