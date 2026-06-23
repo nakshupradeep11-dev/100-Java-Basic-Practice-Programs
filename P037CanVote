@@ -1,0 +1,25 @@
+
+/**
+ * Simple beginner program to determine whether if you are eligible to vote or not.
+ * Author: Nakshatra Pradeep
+ * Date: 23June2026
+ */
+import java.util.*;
+
+public class P037CanVote
+{
+    public static void main(String[] args)
+    {
+        Scanner kbReader = new Scanner(System.in);
+           System.out.println("Enter your age:");
+           int age=kbReader.nextInt();
+           
+           if(age>18)
+           {
+               System.out.println("You are eligibile to vote!");
+           }
+           else
+           {
+               System.out.println("You are not eligible to vote.");
+           }
+        }  }   
