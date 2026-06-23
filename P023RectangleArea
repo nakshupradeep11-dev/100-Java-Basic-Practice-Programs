@@ -1,0 +1,25 @@
+
+/**
+ * Simple beginner program to find area and perimeter of rectangle.
+ * Author: Nakshatra Pradeep
+ * Date: 23June2026
+ */
+import java.util.*;
+
+public class P023RectangleArea
+{
+    public static void main(String[] args)
+    {
+        Scanner kbReader = new Scanner(System.in);
+        System.out.println("Enter a height:");
+        int height=kbReader.nextInt();
+        System.out.println("Enter a width:");
+        int width=kbReader.nextInt();
+        int area=height*width;
+        int perimeter=(height*2)+(width*2);
+        System.out.println("Here is the area:"+" "+area);
+        System.out.println("Here is the perimeter:"+" "+perimeter);
+
+
+        
+}
