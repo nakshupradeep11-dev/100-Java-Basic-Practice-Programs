@@ -1,0 +1,29 @@
+
+/**
+ * Simple beginner program to format and print your full name.
+ * Author: Nakshatra Pradeep
+ * Date: 23June2026
+ */
+import java.util.*;
+
+public class P024FullNameFormatter
+{
+    public static void main(String[] args)
+    {
+        Scanner kbReader = new Scanner(System.in);
+        System.out.println("Enter your first name");
+        String firstName=kbReader.next();
+        System.out.println("Enter your midle name");
+        String middleName=kbReader.next();
+        System.out.println("Enter your last name");
+        String lastName=kbReader.next();
+        System.out.println("Here is your full name:"+" "+lastName+","+" "+firstName+" "+middleName+".");
+        
+        
+
+        
+
+
+        
+}
+}
