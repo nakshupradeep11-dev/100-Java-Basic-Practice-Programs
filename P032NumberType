@@ -1,0 +1,51 @@
+
+/**
+ * Simple beginner program to print whether a number is positive, negative, or zero.
+ * Author: Nakshatra Pradeep
+ * Date: 23June2026
+ */
+import java.util.*;
+
+public class P032NumberType
+{
+    public static void main(String[] args)
+    {
+        Scanner kbReader = new Scanner(System.in);
+        System.out.println("Enter a number:");
+        int firstNum=kbReader.nextInt();
+        if (firstNum>0){
+            System.out.println("The number is positive.");
+        }
+        else if(firstNum==0){
+        System.out.println("The number is zero.");
+
+        }
+        else{
+        System.out.println("The number is negative.");
+
+        }
+        
+        
+        
+        
+        
+        
+            
+
+
+
+        
+        
+        
+
+
+        
+
+        
+
+
+        
+
+
+}
+}
