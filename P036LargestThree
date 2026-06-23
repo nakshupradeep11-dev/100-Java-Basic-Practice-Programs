@@ -1,0 +1,36 @@
+
+/**
+ * Simple beginner program to determine which number is larger from 2 numbers.
+ * Author: Nakshatra Pradeep
+ * Date: 23June2026
+ */
+import java.util.*;
+
+public class P036LargestThree
+{
+    public static void main(String[] args)
+    {
+        Scanner kbReader = new Scanner(System.in);
+        System.out.println("Enter a number:");
+        int firstNum=kbReader.nextInt();
+        System.out.println("Enter another number:");
+        int secondNum=kbReader.nextInt();
+        System.out.println("Enter another number:");
+        int thirdNum=kbReader.nextInt();
+        if(firstNum>secondNum&&firstNum>thirdNum)
+        
+        {
+            System.out.println(firstNum+" is the largest number!");
+            
+        }
+        else if(secondNum>firstNum&&secondNum>thirdNum)
+        
+        {
+            System.out.println(secondNum+" is the largest number!");
+
+        }
+        else if(thirdNum>firstNum&&thirdNum>secondNum)
+        {
+            System.out.println(thirdNum+" is the largest number!");
+        }
+    }  }  
