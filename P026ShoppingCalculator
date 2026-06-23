@@ -1,0 +1,32 @@
+
+/**
+ * Simple beginner program to calculate your shopping total and average.
+ * Author: Nakshatra Pradeep
+ * Date: 23June2026
+ */
+import java.util.*;
+
+public class P026ShoppingCalculator
+{
+    public static void main(String[] args)
+    {
+        Scanner kbReader = new Scanner(System.in);
+        System.out.println("Enter the price of the first item:");
+        float firstItem=kbReader.nextFloat();
+        System.out.println("Enter the price of the second item:");
+        float secondItem=kbReader.nextFloat();
+        System.out.println("Enter the price of the third item:");
+        float thirdItem=kbReader.nextFloat();
+        float total=firstItem+secondItem+thirdItem;
+        float average=(firstItem+secondItem+thirdItem)/3;
+        System.out.println("This is your total price:"+" "+total+".");
+        System.out.println("This is your average price:"+" "+average+".");
+
+        
+
+        
+
+
+        
+}
+}
