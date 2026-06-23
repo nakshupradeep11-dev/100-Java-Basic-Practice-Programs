@@ -1,0 +1,28 @@
+
+/**
+ * Simple beginner program to determine whether shape is a triangle.
+ * Author: Nakshatra Pradeep
+ * Date: 23June2026
+ */
+import java.util.*;
+public class P040TriangleCheck
+{
+    public static void main(String[] args)
+    {
+        Scanner kbReader = new Scanner(System.in);
+           System.out.println("Enter a side length:");
+           int firstSide=kbReader.nextInt();
+           System.out.println("Enter another side length:");
+           int secondSide=kbReader.nextInt();
+           System.out.println("Enter one more side length:");
+           int thirdSide=kbReader.nextInt();
+           if(firstSide+secondSide>thirdSide&&firstSide+thirdSide>secondSide&&secondSide+thirdSide>firstSide)
+           {
+           System.out.println("It's a triangle!");
+           
+        }      
+        else{
+                System.out.println("Not a triangle.");
+                
+            }
+    }         }
