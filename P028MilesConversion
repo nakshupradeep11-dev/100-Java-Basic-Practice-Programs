@@ -1,0 +1,29 @@
+
+/**
+ * Simple beginner program to convert miles to kiloeters.
+ * Author: Nakshatra Pradeep
+ * Date: 23June2026
+ */
+import java.util.*;
+
+public class P028MilesConversion
+{
+    public static void main(String[] args)
+    {
+        Scanner kbReader = new Scanner(System.in);
+        System.out.println("Enter a distance in miles:");
+        float distance=kbReader.nextFloat();
+        float kilometers=(distance*1.61f);
+        System.out.println("Converted to kilometers:"+" "+kilometers+".");
+        
+        
+
+
+        
+
+        
+
+
+        
+}
+}
