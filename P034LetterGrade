@@ -1,0 +1,67 @@
+
+/**
+ * Simple beginner program to assign a letter grade based on the user's score.
+ * Author: Nakshatra Pradeep
+ * Date: 23June2026
+ */
+import java.util.*;
+
+public class P034LetterGrade
+{
+    public static void main(String[] args)
+    {
+        Scanner kbReader = new Scanner(System.in);
+        System.out.println("Enter your score:");
+        int grade=kbReader.nextInt();
+        if(grade>=90)
+        {
+            System.out.println("You recieved an A!");
+        }
+        
+        else if(grade>=80)
+        {
+          System.out.println("You recieved a B.");
+
+        }
+        else if(grade>=70)
+        {
+          System.out.println("You recieved an C.");
+
+        }
+        else if(grade>=60)
+        {
+          System.out.println("You recieved a D.");
+
+        }
+        else
+        {
+         System.out.println("You failed. :(");
+
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+            
+
+
+
+        
+        
+        
+
+
+        
+
+        
+
+
+        
+
+
+}
+}
