@@ -1,0 +1,26 @@
+
+/**
+ * Simple beginner program to print the sum, difference, and quotient of two products.
+ * Author: Nakshatra Pradeep
+ * Date: 22June2026
+ */
+import java.util.*;
+
+public class P020SimpleCalculator
+{
+    public static void main(String[] args)
+    {
+        Scanner kbReader = new Scanner(System.in);
+
+        System.out.print("Input the 1st integer: ");
+        int firstNum=kbReader.nextInt();
+        System.out.print("Input the 2nd integer: ");
+        int secondNum=kbReader.nextInt();
+        int thirdNum=firstNum+secondNum;
+        int fourthNum=firstNum-secondNum;
+        int fifthNum=firstNum*secondNum;
+        float sixthNum=firstNum/secondNum;
+        System.out.print("The sum is"+" "+thirdNum+".");
+        System.out.print("The difference is"+" "+fourthNum+".");
+        System.out.print("The product is"+" "+fifthNum+".");
+        System.out.print("The quotient is"+" "+sixthNum+".");
