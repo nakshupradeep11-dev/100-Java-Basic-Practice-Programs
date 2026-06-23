@@ -1,0 +1,20 @@
+/**
+ * Simple beginner program to convert temp from celsius to fahrenheit.
+ * Author: Nakshatra Pradeep
+ * Date: 23June2026
+ */
+import java.util.*;
+
+public class P022TempConverter
+{
+    public static void main(String[] args)
+    {
+        Scanner kbReader = new Scanner(System.in);
+        System.out.println("Enter a temperature in celsius:");
+        float temp=kbReader.nextInt();
+        System.out.println("Here's the temperature in fahrenheit:"+" "+(temp*9/5+32)+" "+"degrees.");
+
+
+        
+}
+}
