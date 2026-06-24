@@ -1,0 +1,33 @@
+
+/**
+ * Simple beginner program to determine coin values.
+ * Author: Nakshatra Pradeep
+ * Date: 24June2026
+ */
+import java.util.*;
+public class P049CoinValue
+{
+    public static void main(String[] args)
+    {
+        Scanner kbReader = new Scanner(System.in);
+           System.out.println("Enter a coin name(penny,nickel,dime,quarter)");
+            String coin=kbReader.nextLine();
+           switch(coin)
+           {case ("penny"):
+               System.out.println("1 cent.");
+               break;
+               case("nickel"):
+               System.out.println("5 cents.");
+               case("dime"):
+               System.out.println("10 cents.");
+               case("quarter"):
+               System.out.println("25 cents.");
+               default:
+                       System.out.println("Ivalid! Try again!");
+                   
+           }
+           
+           
+           }
+           
+          }
