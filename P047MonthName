@@ -11,8 +11,8 @@ public class P047MonthName
     {
         Scanner kbReader = new Scanner(System.in);
            System.out.println("Enter a Month number(1-12):");
-           int day=kbReader.nextInt();
-           switch(day)
+           int month=kbReader.nextInt();
+           switch(month)
            {case 1:
                System.out.println("It's January.");
                break;
