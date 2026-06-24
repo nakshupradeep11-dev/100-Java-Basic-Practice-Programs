@@ -1,0 +1,45 @@
+/**
+ * Simple beginner program to assign superhero.
+ * Author: Nakshatra Pradeep
+ * Date: 24June2026
+ */
+import java.util.*;
+public class P054SuperHero
+{
+    public static void main(String[] args)
+    {
+        Scanner kbReader = new Scanner(System.in);
+           System.out.println("Enter a number from 1-5");
+            int SuperHerochoice=kbReader.nextInt();
+            
+            switch(SuperHerochoice){
+                case 1:
+                    System.out.println("You got Batman!");
+                break;
+                case 2:
+                    System.out.println("You got Spiderman!");
+                break;
+                case 3:
+                    System.out.println("You got Superman!");
+                break;
+                case 4:
+                    System.out.println("You got Captain America!");
+                break;
+
+                case 5:
+                    System.out.println("You got Ironman!");
+                break;
+
+
+           
+               default:
+               System.out.println("Ivalid! Try again!");
+            }
+            
+            
+            
+                   
+           }
+           
+           
+           }
