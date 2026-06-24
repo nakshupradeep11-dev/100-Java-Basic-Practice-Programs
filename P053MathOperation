@@ -1,0 +1,46 @@
+
+/**
+ * Simple beginner program to calculate math operations.
+ * Author: Nakshatra Pradeep
+ * Date: 24June2026
+ */
+import java.util.*;
+public class P053MathOperation
+{
+    public static void main(String[] args)
+    {
+        Scanner kbReader = new Scanner(System.in);
+           System.out.println("Choose from the menu:1=add,2=subtract,3=multiply,4=divide");
+            int operator=kbReader.nextInt();
+            System.out.println("Enter a number.");
+            int firstNum=kbReader.nextInt();
+            System.out.println("Enter another number.");
+            int secondNum=kbReader.nextInt();
+            switch(operator){
+                case 1:
+                    System.out.println("Result:"+" "+(firstNum+secondNum)+".");
+                    break;
+                    case 2:
+                System.out.println("Result:"+" "+(firstNum-secondNum)+".");
+                break;
+                case 3:
+                System.out.println("Result:"+" "+(firstNum*secondNum)+".");
+                break;
+                case 4:
+                System.out.println("Result:"+" "+(firstNum/secondNum)+".");
+                break;
+
+
+
+           
+               default:
+               System.out.println("Ivalid! Try again!");
+            }
+            
+            
+            
+                   
+           }
+           
+           
+           }
