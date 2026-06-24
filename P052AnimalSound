@@ -1,0 +1,35 @@
+
+/**
+ * Simple beginner program to determine animal sound.
+ * Author: Nakshatra Pradeep
+ * Date: 24June2026
+ */
+import java.util.*;
+public class P052AnimalSound
+{
+    public static void main(String[] args)
+    {
+        Scanner kbReader = new Scanner(System.in);
+           System.out.println("Enter an animal:(cat,dog,cow,duck).");
+            String animal=kbReader.next();
+           switch(animal)
+           {case ("cat"):
+               System.out.println("meoww");
+               break;
+               case("dog"):
+               System.out.println("woof woof.");
+               break;
+               case("cow"):
+               System.out.println("mooo.");
+               case("duck"):
+               System.out.println("quack quack");
+               break;
+               default:
+               System.out.println("Ivalid! Try again!");
+                   
+           }
+           
+           
+           }
+           
+          }
