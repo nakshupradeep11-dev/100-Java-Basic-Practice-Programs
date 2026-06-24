@@ -1,0 +1,33 @@
+
+/**
+ * Simple beginner program to direction from compass.
+ * Author: Nakshatra Pradeep
+ * Date: 24June2026
+ */
+import java.util.*;
+public class P050Direction
+{
+    public static void main(String[] args)
+    {
+        Scanner kbReader = new Scanner(System.in);
+           System.out.println("Enter a direction letter(N,E,S,W).");
+            String direction=kbReader.next();
+           switch(direction)
+           {case ("N"):
+               System.out.println("North.");
+               break;
+               case("E"):
+               System.out.println("East.");
+               case("S"):
+               System.out.println("South.");
+               case("W"):
+               System.out.println("West.");
+               default:
+               System.out.println("Ivalid! Try again!");
+                   
+           }
+           
+           
+           }
+           
+          }
