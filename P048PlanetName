@@ -1,0 +1,49 @@
+
+/**
+ * Simple beginner program to determine which planet.
+ * Author: Nakshatra Pradeep
+ * Date: 24June2026
+ */
+import java.util.*;
+public class P048PlanetName
+{
+    public static void main(String[] args)
+    {
+        Scanner kbReader = new Scanner(System.in);
+           System.out.println("Enter a planet number(1-8):");
+           int planet=kbReader.nextInt();
+           switch(planet)
+           {case 1:
+               System.out.println("It's Mercury.");
+               break;
+               case 2:
+                   System.out.println("It's Venus.");
+                   break;
+                   case 3:
+                 System.out.println("It's Earth.");
+                   break;
+                   case 4:
+                   System.out.println("It's Mars.");
+                   break;
+                   case 5:
+                   System.out.println("It's Jupiter.");
+                   break;
+                    case 6:
+                   System.out.println("It's Saturn!");
+                   break;
+                   case 7:
+                   System.out.println("It's Uranus.");
+                   break;
+                   case 8:
+                   System.out.println("It's Neptune.");
+                   break;
+                   
+                   default:
+                       System.out.println("Ivalid! Try again!");
+                   
+           }
+           
+           
+           }
+           
+          }
