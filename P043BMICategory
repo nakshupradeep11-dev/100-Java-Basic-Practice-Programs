@@ -1,0 +1,35 @@
+
+/**
+ * Simple beginner program to determine BMI.
+ * Author: Nakshatra Pradeep
+ * Date: 24June2026
+ */
+import java.util.*;
+public class P043BMICategory
+{
+    public static void main(String[] args)
+    {
+        Scanner kbReader = new Scanner(System.in);
+           System.out.println("Enter your weight(lbs).");
+           int weight=kbReader.nextInt();
+           System.out.println("Enter your height(in).");
+           int height=kbReader.nextInt();
+           double BMI=weight*703/(height*height);
+           System.out.println("Your BMI is:"+" "+BMI);
+           if(BMI<18.5){
+               System.out.println("Underweight.");
+           }
+           else if(BMI>=18.5&&BMI<=24.9)
+           {
+               System.out.println("Healthy.");
+           }
+           else if(BMI>=25&&BMI<=29.9){
+               System.out.println("Overweight.");
+           }
+           else if(BMI>=30){
+               System.out.println("OBESE!!.");
+           }
+           
+
+        
+        }        } 
