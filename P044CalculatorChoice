@@ -1,0 +1,43 @@
+/**
+ * Simple beginner program to calculate based on user input.
+ * Author: Nakshatra Pradeep
+ * Date: 24June2026
+ */
+import java.util.*;
+public class P044CalculatorChoice
+{
+    public static void main(String[] args)
+    {
+        Scanner kbReader = new Scanner(System.in);
+           System.out.println("Enter a number:");
+           float firstNum=kbReader.nextFloat();
+           System.out.println("Enter another number:");
+           float secondNum=kbReader.nextFloat();
+          System.out.println("Enter an operator(+,-,*,/:");
+          char operator=kbReader.next().charAt(0);
+          float sum=firstNum+secondNum;
+          float product=firstNum*secondNum;
+          float difference=firstNum-secondNum;
+          float quotient=firstNum/secondNum;
+          if(operator=='+')
+          {
+              System.out.println("The result is:"+" "+sum+".");
+          }
+          else if(operator=='-')
+              {
+                  System.out.println("The result is:"+" "+difference+".");
+              }
+              else if(operator=='*')
+              {
+                  System.out.println("The result is:"+" "+product+".");
+              }
+              else if(operator=='/'){
+                  System.out.println("The result is:"+" "+quotient+".");
+              }
+          }
+          
+
+           
+                
+           
+        }     
