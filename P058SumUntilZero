@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+/**
+ * Program to add integers until the user enters 0
+ *
+ * Author: Nakshatra Pradeep
+ * Date: 16 July 2026
+ */
+
+public class P058SumUntilzero
+{
+    public static void main(String[] args)
+    {
+        Scanner kbReader = new Scanner(System.in);
+
+        int number = 1;
+        int total = 0;
+
+        while (number != 0)
+        {
+            System.out.print("Enter an integer (0 to stop): ");
+            number = kbReader.nextInt();
+            total = total + number;
+        }
+
+        System.out.println("The total is: " + total);
+
+        kbReader.close();
+    }
+}
