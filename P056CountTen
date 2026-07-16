@@ -1,0 +1,17 @@
+/**
+ * Program to print numbers 1 through 10
+ *
+ * Author: Nakshatra Pradeep
+ * Date: 16 July 2026
+ */
+
+public class P056CountTen
+{
+    public static void main(String[] args)
+    {
+        for (int i = 1; i <= 10; i++)
+        {
+            System.out.println(i);
+        }
+    }
+}
