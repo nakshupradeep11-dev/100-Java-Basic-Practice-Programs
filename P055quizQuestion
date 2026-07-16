@@ -1,0 +1,55 @@
+
+/**
+ * Simple beginner program to create a quiz question.
+ * Author: Nakshatra Pradeep
+ * Date: 16July2026
+ */
+import java.util.*;
+public class P055quizQuestion
+{
+    public static void main(String[] args)
+    {
+        Scanner kbReader = new Scanner(System.in);
+           System.out.println("Who's known as the King of Pop? Enter your answer choice from A-D");
+         System.out.println("A is Michael Jackson, B is Bruno Mars, C is Miguel, and D is Usher");
+String input=kbReader.nextLine();
+            
+            switch(input){
+                case "A":
+                    System.out.println("Correct!");
+                break;
+                case "B":
+                    System.out.println("Incorrect, try again!");
+                break;
+                case "C":
+                    System.out.println("Incorrect, try again!");
+                break;
+                case "D":
+                    System.out.println("Incorrect, try again!");
+                break;
+
+
+
+           
+               default:
+               System.out.println("Ivalid! Try again!");
+            }
+            
+            
+            
+                   
+           
+           
+           
+           
+           
+          
+          
+
+           
+                
+           
+                   
+
+        }      }             
+            
