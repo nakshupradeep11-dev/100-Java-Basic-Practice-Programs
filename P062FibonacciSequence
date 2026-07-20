@@ -1,0 +1,28 @@
+
+/**
+ * Write a program to print Fibonacci Sequence.
+ *
+ * Author: Nakshatra Pradeep
+ * Date: 19July2026
+ */
+import java.util.*;
+public class P062FibonacciSequence{
+    public static void main(String[]args){
+        Scanner kbReader=new Scanner(System.in);
+        System.out.println("How many times do you want to print a Fibonacci Sequence? ");
+        int numbers=kbReader.nextInt();
+        int firstNum=0;
+        int secondNum=1;
+        String fseries=firstNum+","+secondNum;
+        int i;
+        int thirdNum;
+        for(i=1;i<=numbers-2;i++){
+            thirdNum=firstNum+secondNum;
+            fseries=fseries+","+thirdNum;
+            firstNum=secondNum;
+            secondNum=thirdNum;
+        } 
+        System.out.println(fseries);
+    
+    }
+}
