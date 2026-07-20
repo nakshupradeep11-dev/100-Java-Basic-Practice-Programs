@@ -1,0 +1,16 @@
+
+/**
+ * Program to find the multiples of three between 1-50.
+ *
+ * Author: Nakshatra Pradeep
+ * Date: 20July2026
+ */
+import java.util.*;
+public class P064MultiplesofThree{
+    public static void main(String[]args){
+        int i;
+        for(i=3;i<=50;i+=3){
+            System.out.println(i);
+        }
+    }
+}
