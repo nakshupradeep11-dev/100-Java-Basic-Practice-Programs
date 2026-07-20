@@ -1,0 +1,16 @@
+/**
+ * Program to find the sum of numbers from 1-100.
+ *
+ * Author: Nakshatra Pradeep
+ * Date: 20July2026
+ */
+import java.util.*;
+public class P063SumofNumbers
+{ public static void main(String[]args){
+   int i=0;
+   int sumOfNumbers=0;
+   for(i=0;i<=99;i++){
+       sumOfNumbers=sumOfNumbers+(i+1);
+   }System.out.println(sumOfNumbers);
+}
+}
