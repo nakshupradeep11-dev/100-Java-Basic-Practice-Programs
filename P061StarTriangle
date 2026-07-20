@@ -1,0 +1,18 @@
+
+/**
+ * Program to print a star sequence.
+ *
+ * Author: Nakshatra Pradeep
+ * Date: 19July2026
+ */
+import java.util.*;
+public class P061StarTriangle{
+    public static void main(String[]args){
+        String star="";
+        int i;
+        for(i=1;i<=5;i++){
+            star=star+"*";
+            System.out.println(star);
+        }
+    }   
+}
