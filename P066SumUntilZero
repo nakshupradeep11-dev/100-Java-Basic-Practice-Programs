@@ -1,0 +1,21 @@
+
+/**
+ * Program to add integers using a while loop and 0 to stop the loop.
+ *
+ * Author: Nakshatra Pradeep
+ * Date: 21July2026
+ */
+import java.util.*;
+public class P066SumUntilZero{   
+    public static void main(String[]args){
+        Scanner kbReader=new Scanner(System.in);
+        int inputNum=1;
+        int sum=0;
+        while(inputNum!=0){
+            System.out.println("Enter as many integers. Enter 0 to stop.");
+            inputNum=kbReader.nextInt();
+            sum=sum+inputNum;
+        } 
+        System.out.println("Total sum: "+sum);
+    }
+}
