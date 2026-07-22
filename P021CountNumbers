@@ -1,0 +1,15 @@
+/**
+ * Program to print numbers 1-10 using a while loop.
+ *
+ * Author: Nakshatra Pradeep
+ * Date: 21July2026
+ */
+public class P065CountNumbers{
+    public static void main(String[]args){
+            int i=1;
+                while(i<=10){
+                    System.out.println(i);
+                    i++;
+            }
+    }
+}
