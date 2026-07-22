@@ -1,0 +1,25 @@
+
+/**
+ * Program to check whether a user-inputted number is prime.
+ *
+ * Author: Nakshatra Pradeep
+ * Date: 21July2026
+ */
+import java.util.*;
+public class P067PrimeChecker{ 
+    public static void main(String[]args){
+        Scanner kbReader=new Scanner(System.in);
+        System.out.println("Enter a number: ");
+        boolean isPrime=true;
+        int inputNum=kbReader.nextInt();
+        int i=2;
+        while(i<inputNum){
+            if(inputNum%i==0) isPrime=false;
+            i++;
+        }
+        if (isPrime==true)
+            System.out.println("Your number is prime.");
+        else 
+            System.out.println("Your number is composite.");
+    }
+}
